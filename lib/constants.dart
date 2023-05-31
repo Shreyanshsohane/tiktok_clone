@@ -21,7 +21,7 @@ var firestore = FirebaseFirestore.instance;
 var authController = AuthController.instance;
 
 //PAGES
-const pages = [
+List pages = [
   VideoScreen(),
   Text('Search Screen'),
   AddVideoScreen(),
